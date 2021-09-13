@@ -1,0 +1,110 @@
+@media (min-width: 844px) and (max-width: 844px) {
+    .trijadeForThreePictures {
+        margin-left: 0.25%;
+      }
+      .trijade {
+        display: block;
+        margin: 20px 0px 20px 0px;
+      }
+      .divade {
+        display: block;
+        margin: 20px 0px 20px -5px;
+      }
+      .vienade {
+        display: block;
+        margin: 20px 0px 20px 0px;
+      }
+      .text1 {
+        color: black;
+        padding: 20px;
+        font-size: 20px;
+        justify-content: center;
+        text-align: center;
+      }
+        .heading1 {
+          font-size: 35px;
+          margin-top: -30px;
+        }
+        .heading1-prod-part {
+          font-size: 40px;
+          margin-top: 265px;
+        }
+        .heading2 {
+          font-size: 13.5px;
+          margin-top: -30px;
+        }
+        .background1 {
+          height: 180px;
+        }
+        .offer-insideDiv {
+          font-size: 35px;
+        }
+        .offer {
+          height: 100px;
+          margin: 20px 0px 20px 0px;
+        }
+        .trijade {
+          display: flex;
+          margin: 20px 0px 20px 0px;
+        }
+        .divade {
+          display: flex;
+          margin: 20px 0px 20px 0px;
+        }
+        .vienade {
+          display: flex;
+          margin: 20px 0px 20px 0px;
+        }
+        .menu-button {
+          margin-right: 50px;
+          float: right;
+          margin-top: -178px;
+          position: relative;
+          z-index: 53;
+          cursor: pointer;
+          color: white;
+          border-radius: 50%;
+          font-size: 50px;
+          cursor:pointer
+        }
+        .menu-button-index {
+          margin-right: 50px;
+          float: right;
+          margin-top: -178px;
+          position: relative;
+          z-index: 53;
+          cursor: pointer;
+          color: white;
+          border-radius: 50%;
+          font-size: 50px;
+          cursor:pointer
+        }
+        .background11 {
+          height: 75px;
+          width: 100%;
+        }
+        .background-prod-part {
+          height: 100px;
+          top: 350px;
+        }
+        .logo {
+          width: 200px;
+          height: 200px;
+          margin-left: 30px;
+          z-index: 54;
+          position: relative;
+          top: 12px;
+        }
+        .sidenav a {
+          justify-content: right;
+          text-decoration: none;
+          font-size: 40px;
+          color: #818181;
+          display: block;
+          transition: 0.3s;
+          left: auto;
+          right: 0px;
+          color: white;
+          padding: 15px;
+        }
+}

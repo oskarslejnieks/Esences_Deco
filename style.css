@@ -1,0 +1,1105 @@
+
+body{
+  margin: 0;
+  padding-bottom: 35px;
+  background-color:white;
+  font-family: 'Courier New', Courier, monospace;
+}
+.sp1 
+{
+  background-image: url("Images/sprites.png");
+  background-position:  -1px 84px;
+    width: 80px;
+    height: 80px;
+    transition: all 600ms ease;
+}
+.sp1:hover 
+{
+  background-position: -1px 165px;
+    
+}
+.sp2 
+{
+  background-image: url("Images/sprites.png");
+  background-position: -927px 84px;
+    width: 80px;
+    height: 80px;
+    transition: all 600ms ease;
+}
+.sp2:hover 
+{
+  background-position: -927px 165px;
+}
+.sp3 
+{
+  background-image: url("Images/sprites.png");
+  background-position: -843px 84px;
+    width: 80px;
+    height: 80px;
+    transition: all 600ms ease;
+}
+.sp3:hover 
+{
+  background-position: -843px 165px;
+}
+.media{
+  position: fixed;
+  margin:auto;
+  top: 35%;
+  left: 30px;
+  z-index: 60;
+}
+.lang {
+  display: flex;
+  float: right;
+  margin-right: 130px;
+  margin-top: 70px;
+}
+.lang a {
+  color:#ffffff;
+  font-size:20px;
+  padding:8px 12px;
+  border-radius:3px;
+  -moz-border-radius:3px;
+  -webkit-border-radius:3px;
+  text-decoration:none;
+  z-index: 60;
+  font-weight: bold;
+}
+/*
+@font-face {
+  font-family: 'IstokWeb';
+  src: url(Fonts/static/Rubik-Light.ttf);
+  font-style: normal;
+}
+*/
+.logo {
+  width: 300px;
+  height: 200px;
+  padding: 10px;
+  margin-left: 30px;
+  z-index: 54;
+  position: relative;
+  top: 60px;
+}
+.heading1 {
+  text-align: center;
+  position: relative;
+  z-index: 51;
+  color: white;
+  font-size: 60px;
+}
+.heading1-prod-part {
+  text-align: center;
+  position: relative;
+  z-index: 51;
+  color: white;
+  font-size: 60px;
+}
+
+.heading2{
+  text-align: center;
+  padding: 20px;
+  z-index: 51;
+  color: black;
+  position: relative;
+  color: white;
+  word-spacing: 1px;
+  font-size: 25px;
+}
+.offer-insideDiv {
+  text-align: center;
+  font-size: 70px;
+  text-transform: uppercase;
+  color: white;
+}
+.wrapper {
+  width: 80%;
+  margin: auto;
+  margin-top: 120px;
+}
+.wrapper-prod {
+  width: 80%;
+  margin: auto;
+  margin-top: 150px;
+}
+.wrapper-kontakti {
+  width: 80%;
+  margin: auto;
+  margin-top: 120px;
+}
+.menu-button {
+  margin-right: 50px;
+  float: right;
+  margin-top: -182px;
+  position: relative;
+  z-index: 53;
+  cursor: pointer;
+  color: white;
+  border-radius: 50%;
+  font-size: 70px;
+}
+.map {
+  margin-left: 25%;
+  z-index: 52;
+  position: absolute;
+  padding: 0px 0px 40px 0px;
+}
+
+#box-index {
+  height:1000px;
+  width: 100%;
+  background-image: url(Images/MBI_1252.JPG);
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+  background-position: center center;
+  overflow: hidden;
+}
+#box2 {
+  height: 1000px;
+  width: 100%;
+  background-image: url(Images/MBI_5061.jpg);
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+  background-position: center center;
+  overflow: hidden;
+}
+#box3 {
+  height: 1000px;
+  width: 100%;
+  background-image: url(Images/MBI_5121.JPG);
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+  background-position: center center;
+  overflow: hidden;
+}
+#box4 {
+  height: 500px;
+  width: 100%;
+  background-image: url(Images/MBI_5241.JPG);
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+  background-position: center center;
+  overflow: hidden;
+}
+#box5 {
+  height: 1000px;
+  width: 100%;
+  background-image: url(Images/posypki\ per_éowe\ \(13\).jpg);
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+  background-position: center center;
+  overflow: hidden;
+}
+.background1 {
+  height: 400px;
+  width: 100%;
+  background-color: black;
+  z-index: 50;
+  opacity: 0.6;
+  position: absolute;
+  margin-top: 70px;
+}
+.background11 {
+  height: 100px;
+  width: 100%;
+  background-color: black;
+  position: absolute;
+  opacity: 0.6;
+  margin-top: -180px;
+}
+.background2 {
+  height: 150px;
+  width: 100%;
+  background-color: black;
+  z-index: 50;
+  opacity: 0.6;
+  position: absolute;
+  margin-top: 110px;
+}
+.backgroundLihtuania {
+  height: 500px;
+  width: 100%;
+  background-color: black;
+  position: absolute;
+  opacity: 0.6;
+}
+.background-prod-part {
+  height: 150px;
+  width: 100%;
+  background-color: black;
+  z-index: 50;
+  opacity: 0.6;
+  position: absolute;
+  margin-top: 110px;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 53;
+  top: 0;
+  right: 0;
+  background-color: #686868;
+  overflow-x: hidden;
+  transition: 0.3s;
+  padding-top: 60px;
+  float: right;
+}
+.sidenav a {
+  justify-content: right;
+  text-decoration: none;
+  font-size: 60px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  left: auto;
+  right: 0px;
+  color: white;
+  padding: 10px;
+}
+.navWrapper {
+  float: right;
+  right: auto;
+  left: 0;
+  margin-top: 150px;
+  text-align: right;
+  margin-right: 10%;
+  font-weight: bold;
+}
+.sidenav a:hover {
+  margin-right: 25px;
+}
+.offer {
+  height: 150px;
+  margin: 40px 0px 40px 0px;
+  background-color: #686868;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.ceturde {
+  display: flex;
+  margin: 40px 0px 40px 0px;
+}
+.trijade {
+  display: flex;
+  margin: 40px 0px 40px 0px;
+}
+.divade {
+  display: flex;
+  margin: 40px 0px 40px 0px;
+}
+.vienade {
+  display: flex;
+  margin: 40px 0px 40px 0px;
+}
+.tri1 {
+  flex-basis: 33%;
+  height: 500px;
+  margin-left: 0.25%;
+  overflow: hidden;
+} 
+
+.tri2 {
+  flex-basis: 33%;
+  height: 500px;
+  background-color: black;
+  margin-left: 0.25%;
+  overflow: hidden;
+}
+.tri3 {
+  flex-basis: 33%;
+  height: 500px;
+  background-color: black;
+  margin-left: 0.25%;
+  overflow: hidden;
+}
+.image1 {
+  transition: 0.5s all ease-in-out;
+}
+.image1:hover {
+  transform: scale(1.2);
+}
+.image2 {
+  transition: 0.5s all ease-in-out;
+}
+.image2:hover {
+  transform: scale(1.2);
+}
+.image3 {
+  transition: 0.5s all ease-in-out;
+}
+.image3:hover {
+  transform: scale(1.2);
+}
+
+.ceturdeForFourPictures {
+  position: relative;
+  flex-basis: 24.7%;
+  overflow: hidden;
+}
+.trijadeForThreePictures {
+  position: relative;
+  flex-basis: 33%;
+  overflow: hidden;
+  
+}
+.divadeForTwoPictures {
+  position: relative;
+  flex-basis: 49%;
+  overflow: hidden;
+  margin-left: 0.65%;
+}
+.vienadeForOnePicture {
+  position: relative;
+  flex-basis: 50%;
+  overflow: hidden;
+  margin: auto;
+}
+.image4 {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+.ceturdeForFourPictures:hover .image4 {
+  opacity: 0.2;
+  transform: scale(1.1);
+  transition: .5s ease;
+}
+.ceturdeForFourPictures:hover .middle {
+  opacity: 1;
+  transition: .5s all ease-in-out
+}
+.trijadeForThreePictures:hover .image4 {
+  opacity: 0.2;
+  transform: scale(1.1);
+  transition: .5s ease;
+}
+.trijadeForThreePictures:hover .middle {
+  opacity: 1;
+  transition: .5s all ease-in-out
+}
+
+.trijadeForThreePictures:hover .middle-krasvielas-konditorejai {
+  opacity: 1;
+  transition: .5s all ease-in-out
+}
+
+.divadeForTwoPictures:hover .image4 {
+  opacity: 0.2;
+  transform: scale(1.1);
+  transition: .5s ease;
+}
+.divadeForTwoPictures:hover .middle {
+  opacity: 1;
+  transition: .5s all ease-in-out
+}
+
+.vienadeForOnePicture:hover .image4 {
+  opacity: 0.2;
+  transform: scale(1.1);
+  transition: .5s ease;
+}
+.vienadeForOnePicture:hover .middle {
+  opacity: 1;
+  transition: .5s all ease-in-out
+}
+
+.text1 {
+  color: black;
+  padding: 20px;
+  font-size: 35px;
+  justify-content: center;
+  text-align: center;
+}
+.text {
+  color: black;
+  font-size: 12px;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: -5px;
+}
+
+.offer-mini {
+  height: 100px;
+  margin: 40px 0px 40px 0px;
+  background-color: #686868;
+  display: flex;
+}
+.gemossLV { 
+  flex-basis: 33%;
+  background-color: black;
+  margin-left: 0.25%;
+}
+.Amada {
+  flex-basis: 33%;
+  background-color: black;
+  margin-left: 0.25%;
+}
+.gemossET {
+  flex-basis: 33%;
+  background-color: black;
+  margin-left: 0.25%;
+}
+@media (min-width: 1281px){
+.trijadeForThreePictures {
+  margin-left: 0.25%;
+}
+.ceturdeForFourPictures {
+  margin-left:  0.25%;
+}
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+.lang {
+  display: flex;
+  float: right;
+  margin-right: 130px;
+  margin-top: 67px;
+}
+.ceturdeForFourPictures {
+  margin-left: 0.25%;
+}
+.trijadeForThreePictures {
+  margin-left: 0.25%;
+}
+.text1 {
+  color: black;
+  padding: 20px;
+  font-size: 30px;
+  justify-content: center;
+  text-align: center;
+}
+  .heading1 {
+    font-size: 50px;
+    margin-top: -20px;
+  }
+  .heading1-prod-part {
+    font-size: 50px;
+    margin-top: -20px;
+  }
+  .heading2 {
+    font-size: 20px;
+    margin-top: -20px;
+  }
+  .background1 {
+    height: 300px;
+  }
+  .offer-insideDiv {
+    font-size: 60px;
+  }
+  .offer {
+    height: 125px;
+    margin: 30px 0px 30px 0px;
+  }
+  .ceturde {
+    display: flex;
+    margin: 30px 0px 30px 0px;
+  }
+  .trijade {
+    display: flex;
+    margin: 30px 0px 30px 0px;
+  }
+  .divade {
+    display: flex;
+    margin: 30px 0px 30px 0px;
+  }
+  .vienade {
+    display: flex;
+    margin: 30px 0px 30px 0px;
+  }
+  .menu-button {
+    margin-right: 50px;
+    float: right;
+    margin-top: -182px;
+    position: relative;
+    z-index: 53;
+    cursor: pointer;
+    color: white;
+    border-radius: 50%;
+    font-size: 65px;
+  }
+  .background11 {
+    height: 90px;
+    width: 100%;
+  }
+  .logo {
+    width: 250px;
+    height: 200px;
+    margin-left: 30px;
+    z-index: 54;
+    position: relative;
+    top: 60px;
+  }
+  .background-prod-part {
+    height: 100px;
+    top: 350px;
+  }
+  .wrapper-prod {
+    width: 80%;
+    margin: auto;
+    margin-top: 280px;
+  }
+  .sidenav a {
+    justify-content: right;
+    text-decoration: none;
+    font-size: 55px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    left: auto;
+    right: 0px;
+    color: white;
+    padding: 10px;
+  }
+  .media{
+    visibility: hidden;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px)  {
+  /* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+.lang {
+  display: flex;
+  float: right;
+  margin-right: 130px;
+  margin-top: 60px;
+}
+.image4 {
+  opacity: 0.6;
+}
+.ceturde {
+  display: block;
+  margin: 20px 0px 20px 0px;
+}
+.trijade {
+  display: block;
+  margin: 20px 0px 20px 0px;
+}
+.divade {
+  display: block;
+  margin: 20px 0px 20px -5px;
+}
+.vienade {
+  display: block;
+  margin: 20px 0px 20px 0px;
+}
+.text1 {
+  color: black;
+  padding: 20px;
+  font-size: 40px;
+  justify-content: center;
+  text-align: center;
+}
+  .heading1 {
+    font-size: 35px;
+    margin-top: -30px;
+  }
+  .heading1-prod-part {
+    font-size: 40px;
+    margin-top: 265px;
+  }
+  .heading2 {
+    font-size: 13.5px;
+    margin-top: -30px;
+  }
+  .background1 {
+    height: 180px;
+  }
+  .offer-insideDiv {
+    font-size: 35px;
+  }
+  .offer {
+    height: 100px;
+    margin: 20px 0px 20px 0px;
+  }
+  .menu-button {
+    margin-right: 50px;
+    float: right;
+    margin-top: -178px;
+    position: relative;
+    z-index: 53;
+    cursor: pointer;
+    color: white;
+    border-radius: 50%;
+    font-size: 50px;
+    cursor:pointer
+  }
+  .background11 {
+    height: 75px;
+    width: 100%;
+  }
+  .background-prod-part {
+    height: 100px;
+    top: 350px;
+  }
+  .logo {
+    width: 200px;
+    height: 200px;
+    margin-left: 30px;
+    z-index: 54;
+    position: relative;
+    top: 55px;
+  }
+  .sidenav a {
+    justify-content: right;
+    text-decoration: none;
+    font-size: 40px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    left: auto;
+    right: 0px;
+    color: white;
+    padding: 15px;
+  }
+  .media{
+    visibility: hidden;
+  }
+  .middle{
+    opacity: 1; 
+   }
+   .ceturdeForFourPictures .image4 {
+    margin: 5px 0px 5px 0px;
+  }
+   
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .lang {
+    display: flex;
+    float: right;
+    margin-right: 110px;
+    margin-top: 60px;
+  }
+  .lang a {
+    color:#ffffff;
+    font-size:15px;
+    text-decoration:none;
+    z-index: 60;
+    font-weight: bold;
+  }
+  .ceturdeForFourPictures .image4 {
+    opacity: 0.6;
+    margin: 5px 0px 5px 0px;
+  }
+  .trijadeForThreePictures .image4 {
+    opacity: 0.6;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  .divadeForTwoPictures .image4 {
+    opacity: 0.6;
+    margin: 5px 0px 5px 0px;
+  }
+  .divadeForTwoPictures {
+    margin-left: 0;
+  }
+  .vienadeForOnePicture .image4{
+    opacity: 0.6;
+    margin: 5px 0px 5px 0px;
+  }
+  .image4 {
+    margin-bottom: -5px;
+  }
+  .middle{
+   opacity: 1; 
+  }
+  .background-prod-part {
+    visibility: hidden;
+  }
+  .background-phone-prod-part {
+    top: 0;
+    height: 400px;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    opacity: 0.6;
+  }
+  .background-phone-kontakti {
+    top: 0;
+    height: 400px;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    opacity: 0.6;
+  }
+  .background-index {
+    top: 0;
+    height: 400px;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    opacity: 0.6;
+  }
+  .heading1 {
+    font-size: 30px;
+    margin-top: -70px;
+    margin-bottom: 70px;
+  }
+  .heading2 {
+    font-size: 12px;
+    margin-top: -50px;
+    margin-bottom: 50px;
+  }
+  .heading1-prod-part {
+    margin-top: -150px;
+    font-size: 35px;
+    margin-bottom: 150px;
+  }
+  .offer-insideDiv {
+    font-size: 30px;
+  }
+  .offer {
+    height: 100px;
+    margin: 20px 0px 20px 0px;
+  }
+  .ceturde {
+    display: block;
+    margin: 20px 0px 20px 0px;
+  }
+  .trijade {
+    display: block;
+    margin: 20px 0px 20px 0px;
+  }
+  .divade {
+    display: block;
+    margin: 20px 0px 20px -5px;
+  }
+  .vienade {
+    display: block;
+    margin: 20px 0px 20px 0px;
+  }
+  #box-index {
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+    background-attachment:local;
+  }
+  #box2 {
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+    background-attachment:local;
+  }
+  #box3{
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+    background-attachment:local;
+  }
+  #box4 {
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+    background-attachment:local;
+  }
+  #box5 {
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+    background-attachment:local;
+  }
+  .wrapper-kontakti {
+    width: 100%;
+    margin: auto;
+  }
+  .background11 {
+    visibility: hidden;
+  }
+  .background1 {
+    visibility: hidden;
+  }
+  .wrapper {
+    margin: auto;
+    width: 100%;
+  }
+  .menu-button {
+    margin-right: 50px;
+    float: right;
+    margin-top: -150px;
+    position: relative;
+    z-index: 53;
+    cursor: pointer;
+    color: white;
+    border-radius: 50%;
+    font-size: 50px;
+    cursor:pointer
+  }
+  .logo {
+    width: 170px;
+    height: 170px;
+    margin-left: 30px;
+    z-index: 54;
+    position: relative;
+    top: 55px;
+  }
+  .sidenav a {
+    justify-content: right;
+    text-decoration: none;
+    font-size: 30px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    left: auto;
+    right: 0px;
+    color: white;
+    padding: 15px;
+    
+  }
+  .sidenav {
+    margin-top: -50px;
+  }
+  .media{
+    visibility: hidden;
+  }
+  
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+.text1 {
+  font-size: 25px;
+}
+.lang {
+  display: flex;
+  float: right;
+  margin-right: 80px;
+  margin-top: 33px;
+}
+.lang a {
+  color:#ffffff;
+  font-size:15px;
+  text-decoration:none;
+  z-index: 60;
+  font-weight: bold;
+}
+.ceturdeForFourPictures .image4 {
+  opacity: 0.6;
+  margin: 5px 0px 5px 0px;
+}
+.trijadeForThreePictures .image4 {
+  opacity: 0.6;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.divadeForTwoPictures .image4 {
+  opacity: 0.6;
+  margin: 5px 0px 5px 0px;
+}
+.divadeForTwoPictures {
+  margin-left: 0;
+}
+.vienadeForOnePicture .image4{
+  opacity: 0.6;
+  margin: 5px 0px 5px 0px;
+}
+.image4 {
+  margin-bottom: -5px;
+}
+.middle{
+ opacity: 1; 
+}
+.background-prod-part {
+  visibility: hidden;
+}
+.background-phone-prod-part {
+  top: 0;
+  height: 400px;
+  width: 100%;
+  background-color: black;
+  position: absolute;
+  opacity: 0.6;
+}
+.background-phone-kontakti {
+  top: 0;
+  height: 400px;
+  width: 100%;
+  background-color: black;
+  position: absolute;
+  opacity: 0.6;
+}
+.background-index {
+  top: 0;
+  height: 400px;
+  width: 100%;
+  background-color: black;
+  position: absolute;
+  opacity: 0.6;
+}
+.heading1 {
+  font-size: 30px;
+  margin-top: -70px;
+  margin-bottom: 70px;
+  margin-left: 55px;
+}
+.heading2 {
+  font-size: 12px;
+  margin-top: -50px;
+  margin-bottom: 50px;
+}
+.heading1-prod-part {
+  margin-top: -150px;
+  font-size: 35px;
+  margin-bottom: 150px;
+}
+.offer-insideDiv {
+  font-size: 30px;
+}
+.offer {
+  height: 100px;
+  margin: 20px 0px 20px 0px;
+}
+.ceturde {
+  display: block;
+  margin: 20px 0px 20px 0px;
+}
+.trijade {
+  display: block;
+  margin: 20px 0px 20px 0px;
+}
+.divade {
+  display: block;
+  margin: 20px 0px 20px -5px;
+}
+.vienade {
+  display: block;
+  margin: 20px 0px 20px 0px;
+}
+#box-index {
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+  background-attachment:local;
+}
+#box2 {
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+  background-attachment:local;
+}
+#box3{
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+  background-attachment:local;
+}
+#box4 {
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+  background-attachment:local;
+}
+#box5 {
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+  background-attachment:local;
+}
+.wrapper-kontakti {
+  width: 100%;
+  margin-top: 50px;
+}
+.wrapper-prod {
+  margin-top: 200px;
+}
+.background11 {
+  visibility: hidden;
+}
+.background1 {
+  visibility: hidden;
+}
+.wrapper {
+  margin-top: 50px;
+  width: 100%;
+}
+.menu-button {
+  margin-right: 20px;
+  float: right;
+  margin-top: -117px;
+  position: relative;
+  z-index: 53;
+  cursor: pointer;
+  color: white;
+  border-radius: 50%;
+  font-size: 35px;
+  cursor:pointer
+}
+.logo {
+  width: 120px;
+  height: 120px;
+  margin-left: 0px;
+  z-index: 54;
+  position: relative;
+  top: 32px;
+  left: 10px;
+}
+.sidenav a {
+  justify-content: right;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  left: auto;
+  right: 0px;
+  color: white;
+  padding: 15px;
+}
+.sidenav {
+  margin-top: -80px;
+  height: 110%;
+}
+.media{
+  visibility: hidden;
+}
+
+}
+
+
